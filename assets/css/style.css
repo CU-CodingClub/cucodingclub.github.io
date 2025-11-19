@@ -150,7 +150,7 @@ a:hover {
    =================================== */
 
 .navbar {
-    background-color: white;
+    background-color: rgba(246, 242, 242, 0.835);
     color: var(--primary);
     padding: var(--spacing-sm) 0;
     position: sticky;
