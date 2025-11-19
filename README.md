@@ -8,77 +8,39 @@ This website showcases the Coding Club's mission, events, projects, and team. It
 
 ## ✨ Features
 
-- **Clean Academic Design**: Professional layout inspired by university websites
-- **Fully Responsive**: Mobile-first approach with breakpoints for all devices
+- **Clean Academic Design**
+- **Fully Responsive**: 
 - **Light Color Palette**: 
-  - Primary: #0A4D9C (Professional Blue)
-  - Secondary: #0066CC (Bright Blue)
-  - Background: #FFFFFF (Clean White)
-  - Light Gray: #F5F7FA (Subtle backgrounds)
-- **Minimal Animations**: Subtle fade-in effects on scroll
-- **Accessibility**: Keyboard navigation, ARIA labels, semantic HTML
-- **Fast Performance**: No heavy frameworks, optimized CSS and JavaScript
+  
+- **Minimal Animations**
+- **Accessibility**
+- **Fast Performance**
 
-## 📁 Folder Structure
 
-```
-coding_clubCU/
-├── index.html              # Homepage
-├── about.html              # Club information, mission, activities
-├── events.html             # Upcoming events and workshops
-├── team.html               # Team members and leadership
-├── projects.html           # Showcase of club projects
-├── assets/
-│   ├── css/
-│   │   ├── style.css       # Main styles
-│   │   └── responsive.css  # Mobile & tablet styles
-│   ├── js/
-│   │   └── script.js       # JavaScript functionality
-│   └── images/             # Image assets (for future use)
-└── README.md               # This file
-```
-
-## 🎯 Pages
-
-### 1. **Home (index.html)**
-   - Eye-catching hero section with club mission
-   - Quick preview of club activities
-   - Statistics showcase (members, events, projects, etc.)
-   - Call-to-action buttons
-
-### 2. **About (about.html)**
+  ### 2. **About **
    - Club vision and mission statements
    - List of core activities
    - Values section
    - Detailed information about workshops, competitions, and initiatives
 
-### 3. **Events (events.html)**
+### 3. **Events**
    - Card-based event layout
    - Event date, time, and location information
    - Event categories (workshops, competitions, hackathons, talks)
    - Registration and "Learn More" buttons
 
-### 4. **Projects (projects.html)**
+### 4. **Projects**
    - Showcase of completed and ongoing projects
    - Technology stack badges
    - Project leads and descriptions
    - Different project categories (Web App, Tool, Mobile App, etc.)
 
-### 5. **Team (team.html)**
+### 5. **Team**
    - Leadership section
    - Coordinators and committee members
    - Member roles and contact information
    - "Join Us" call-to-action
 
-## 🎨 Design System
-
-### Colors
-- **Primary Blue**: #0A4D9C - Main branding color
-- **Secondary Blue**: #0066CC - Hover states and accents
-- **White**: #FFFFFF - Clean backgrounds
-- **Light Gray**: #F5F7FA - Subtle backgrounds for cards
-- **Dark**: #333333 - Text color
-- **Text Light**: #666666 - Secondary text
 
 ### Typography
 - **Font Family**: Poppins (from Google Fonts)
@@ -101,32 +63,10 @@ coding_clubCU/
 - Light: `0 2px 8px rgba(0, 0, 0, 0.08)`
 - Heavy: `0 4px 16px rgba(0, 0, 0, 0.12)`
 
-## 🚀 Getting Started
-
 ### Prerequisites
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 - No build tools or dependencies required
 
-### Installation
-
-1. Clone or download the project
-   ```bash
-   git clone https://github.com/yourusername/coding_clubCU.git
-   cd coding_clubCU
-   ```
-
-2. Open in a web server (required for full functionality)
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js (with http-server)
-   npx http-server
-   
-   # Or use any other local server
-   ```
-
-3. Open your browser and navigate to `http://localhost:8000`
 
 ## 📱 Responsive Breakpoints
 
@@ -151,20 +91,6 @@ All animations are minimal and professional:
 - **Fade-in**: Elements fade in when scrolled into view (0.6s)
 - **Hover Effects**: Subtle shadow and translation on hover
 - **Transitions**: 0.3s ease timing for all interactive elements
-
-## 📝 Customization
-
-### Colors
-
-```css
-:root {
-    --primary: #0A4D9C;
-    --secondary: #0066CC;
-    --background: #FFFFFF;
-    --light-gray: #F5F7FA;
-    --dark: #333333;
-}
-```
 
 ### Content
 - Club name and branding
@@ -197,9 +123,6 @@ All animations are minimal and professional:
 - Fast page load times
 - Mobile-optimized images (recommended)
 
-## 📄 License
-
-This project is open source and available under the MIT License.
 
 ## 🤝 Contributing
 
@@ -209,22 +132,24 @@ Contributions are welcome! Please feel free to:
 - Submit pull requests
 - Improve documentation
 
-## 📞 Contact
-
-**Coding Club Chandigarh University**
-- Email: codingclub@chandigarh.edu.in
-- Campus: Chandigarh University, India
 
 ## 🙏 Credits
-
-- Design inspired by modern university websites
 - Built with HTML5, CSS3, and Vanilla JavaScript
 - Font: Poppins from Google Fonts
+- git for push this project
 
 ---
 
-**Last Updated**: 18 November 2025
-**Version**: 1.0.0
+## powered by 
+department of computer science and engineering ( Chandigarh University Lucknow , Uttar Pradesh )
+-Guided by : Mentors of Chandigarh University Lucknow 
+
+
+## website link🔗🔗
+Visit now : https://cu-codingclub.github.io/cucodingclub.github.io/
+
+## thank you 
+
 
 Made with ❤️ by Coding Club CU
 
