@@ -72,32 +72,10 @@ This website showcases the Coding Club's mission, events, projects, and team. It
 - Light: `0 2px 8px rgba(0, 0, 0, 0.08)`
 - Heavy: `0 4px 16px rgba(0, 0, 0, 0.12)`
 
-## 🚀 Getting Started
-
 ### Prerequisites
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 - No build tools or dependencies required
 
-### Installation
-
-1. Clone or download the project
-   ```bash
-   git clone https://github.com/yourusername/coding_clubCU.git
-   cd coding_clubCU
-   ```
-
-2. Open in a web server (required for full functionality)
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js (with http-server)
-   npx http-server
-   
-   # Or use any other local server
-   ```
-
-3. Open your browser and navigate to `http://localhost:8000`
 
 ## 📱 Responsive Breakpoints
 
@@ -122,20 +100,6 @@ All animations are minimal and professional:
 - **Fade-in**: Elements fade in when scrolled into view (0.6s)
 - **Hover Effects**: Subtle shadow and translation on hover
 - **Transitions**: 0.3s ease timing for all interactive elements
-
-## 📝 Customization
-
-### Colors
-
-```css
-:root {
-    --primary: #0A4D9C;
-    --secondary: #0066CC;
-    --background: #FFFFFF;
-    --light-gray: #F5F7FA;
-    --dark: #333333;
-}
-```
 
 ### Content
 - Club name and branding
@@ -168,9 +132,6 @@ All animations are minimal and professional:
 - Fast page load times
 - Mobile-optimized images (recommended)
 
-## 📄 License
-
-This project is open source and available under the MIT License.
 
 ## 🤝 Contributing
 
@@ -180,22 +141,24 @@ Contributions are welcome! Please feel free to:
 - Submit pull requests
 - Improve documentation
 
-## 📞 Contact
-
-**Coding Club Chandigarh University**
-- Email: codingclub@chandigarh.edu.in
-- Campus: Chandigarh University, India
 
 ## 🙏 Credits
-
-- Design inspired by modern university websites
 - Built with HTML5, CSS3, and Vanilla JavaScript
 - Font: Poppins from Google Fonts
+- git for push this project
 
 ---
 
-**Last Updated**: 18 November 2025
-**Version**: 1.0.0
+## powered by 
+department of computer science and engineering ( Chandigarh University Lucknow , Uttar Pradesh )
+-Guided by : Mentors of Chandigarh University Lucknow 
+
+
+## website link🔗🔗
+Visit now : https://cu-codingclub.github.io/cucodingclub.github.io/
+
+## thank you 
+
 
 Made with ❤️ by Coding Club CU
 
