@@ -8,63 +8,34 @@ This website showcases the Coding Club's mission, events, projects, and team. It
 
 ## ✨ Features
 
-- **Clean Academic Design**: Professional layout inspired by university websites
-- **Fully Responsive**: Mobile-first approach with breakpoints for all devices
+- **Clean Academic Design**
+- **Fully Responsive**: 
 - **Light Color Palette**: 
-  - Primary: #0A4D9C (Professional Blue)
-  - Secondary: #0066CC (Bright Blue)
-  - Background: #FFFFFF (Clean White)
-  - Light Gray: #F5F7FA (Subtle backgrounds)
-- **Minimal Animations**: Subtle fade-in effects on scroll
-- **Accessibility**: Keyboard navigation, ARIA labels, semantic HTML
-- **Fast Performance**: No heavy frameworks, optimized CSS and JavaScript
+  
+- **Minimal Animations**
+- **Accessibility**
+- **Fast Performance**
 
-## 📁 Folder Structure
 
-```
-coding_clubCU/
-├── index.html              # Homepage
-├── about.html              # Club information, mission, activities
-├── events.html             # Upcoming events and workshops
-├── team.html               # Team members and leadership
-├── projects.html           # Showcase of club projects
-├── assets/
-│   ├── css/
-│   │   ├── style.css       # Main styles
-│   │   └── responsive.css  # Mobile & tablet styles
-│   ├── js/
-│   │   └── script.js       # JavaScript functionality
-│   └── images/             # Image assets (for future use)
-└── README.md               # This file
-```
-
-## 🎯 Pages
-
-### 1. **Home (index.html)**
-   - Eye-catching hero section with club mission
-   - Quick preview of club activities
-   - Statistics showcase (members, events, projects, etc.)
-   - Call-to-action buttons
-
-### 2. **About (about.html)**
+  ### 2. **About **
    - Club vision and mission statements
    - List of core activities
    - Values section
    - Detailed information about workshops, competitions, and initiatives
 
-### 3. **Events (events.html)**
+### 3. **Events**
    - Card-based event layout
    - Event date, time, and location information
    - Event categories (workshops, competitions, hackathons, talks)
    - Registration and "Learn More" buttons
 
-### 4. **Projects (projects.html)**
+### 4. **Projects**
    - Showcase of completed and ongoing projects
    - Technology stack badges
    - Project leads and descriptions
    - Different project categories (Web App, Tool, Mobile App, etc.)
 
-### 5. **Team (team.html)**
+### 5. **Team**
    - Leadership section
    - Coordinators and committee members
    - Member roles and contact information
