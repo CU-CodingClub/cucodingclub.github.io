@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Club Chandigarh University</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <img src="assets/images/logos/culogo.png" alt="College Logo" class="navbar-logo">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Coding Club</h2>
+            <p>Chandigarh University's Premier Community for Developers</p>
+            <p class="hero-subtitle">Learn, Build, and Collaborate</p>
+            <button class="btn btn-primary">Get Started</button>
+        </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="about-preview">
+        <div class="container">
+            <h2>About Our Club</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <h3>Our Mission</h3>
+                    <p>We foster a community of passionate developers at Chandigarh University, dedicated to learning modern programming practices, sharing knowledge, and building innovative solutions together.</p>
+                </div>
+                <div class="about-card">
+                    <h3>What We Offer</h3>
+                    <p>Workshops, coding competitions, hackathons, mentorship programs, and collaborative projects. We believe in hands-on learning and peer-to-peer knowledge sharing.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Join Us</h3>
+                    <p>Whether you're a beginner or an experienced developer, there's a place for you in our community. Together, we grow, learn, and achieve more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <h3>00</h3>
+                <p>Active Members</p>
+            </div>
+            <div class="stat-item">
+                <h3>00</h3>
+                <p>Annual Events</p>
+            </div>
+            <div class="stat-item">
+                <h3>00+</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-item">
+                <h3>00+</h3>
+                <p>Workshops Conducted</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Coding Club CU</h4>
+                    <p>Building a community of developers at Chandigarh University</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: codingclub123@culkomail.in</p>
+                    <p>Campus: Chandigarh University</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Coding Club CU. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Feedback Modal -->
+    <div id="feedbackModal" class="feedback-modal">
+        <div class="feedback-modal-content">
+            <div class="feedback-modal-header">
+                <h3>We'd Love Your Feedback!</h3>
+                <button class="feedback-close" id="feedbackClose" aria-label="Close feedback modal">&times;</button>
+            </div>
+            <div class="feedback-modal-body">
+                <p>Thank you for spending time on our website. Your feedback helps us to improve our website and services!</p>
+                <form id="feedbackForm">
+                    <textarea 
+                        id="feedbackText" 
+                        placeholder="Please share your thoughts, suggestions, or any issues you encountered..."
+                        rows="6"
+                        required
+                    ></textarea>
+                    <div class="feedback-modal-actions">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-secondary" id="feedbackCloseBtn">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

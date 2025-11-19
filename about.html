@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Coding Club Chandigarh University</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <img src="assets/images/logos/culogo.png" alt="College Logo" class="navbar-logo">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="page-hero">
+        <h1>About Coding Club</h1>
+        <p>Learn more about our community and mission</p>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <!-- Vision -->
+            <div class="about-block">
+                <h2>Our Vision</h2>
+                <p>To create a vibrant community of developers and tech enthusiasts at Chandigarh University who collaborate, innovate, and contribute to the tech ecosystem through quality projects and knowledge sharing.</p>
+            </div>
+
+            <!-- Mission -->
+            <div class="about-block">
+                <h2>Our Mission</h2>
+                <p>We aim to:</p>
+                <ul class="mission-list">
+                    <li>Provide a platform for students to learn and practice coding skills</li>
+                    <li>Organize workshops, competitions, and hackathons</li>
+                    <li>Mentor new developers and foster peer learning</li>
+                    <li>Build collaborative projects that solve real-world problems</li>
+                    <li>Connect students with industry professionals</li>
+                    <li>Promote open-source contribution and community participation</li>
+                </ul>
+            </div>
+
+            <!-- Activities -->
+            <div class="about-block">
+                <h2>Our Activities</h2>
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <h3>Workshops</h3>
+                        <p>Regular sessions on modern programming languages, frameworks, and development practices.</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>Hackathons</h3>
+                        <p>24-hour coding marathons where students collaborate to build innovative projects.</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>Competitions</h3>
+                        <p>Coding contests and challenges to test skills and compete with peers.</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>Guest Talks</h3>
+                        <p>Industry experts share insights and career guidance with our community.</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>Projects</h3>
+                        <p>Collaborative initiatives to build real-world applications and open-source contributions.</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>Mentorship</h3>
+                        <p>One-on-one guidance from experienced developers to help beginners grow.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Values -->
+            <div class="about-block">
+                <h2>Our Core Values</h2>
+                <div class="values-grid">
+                    <div class="value-item">
+                        <h4>Collaboration</h4>
+                        <p>We believe in the power of teamwork and collective learning.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Innovation</h4>
+                        <p>We encourage creative thinking and pushing technological boundaries.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Inclusivity</h4>
+                        <p>Everyone is welcome, regardless of experience level or background.</p>
+                    </div>
+                    <div class="value-item">
+                        <h4>Excellence</h4>
+                        <p>We strive for quality in all our projects and activities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Coding Club CU</h4>
+                    <p>Building a community of developers at Chandigarh University</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: codingclub123@culkomail.in</p>
+                    <p>Campus: Chandigarh University</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Coding Club CU. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Feedback Modal -->
+    <div id="feedbackModal" class="feedback-modal">
+        <div class="feedback-modal-content">
+            <div class="feedback-modal-header">
+                <h3>We'd Love Your Feedback!</h3>
+                <button class="feedback-close" id="feedbackClose" aria-label="Close feedback modal">&times;</button>
+            </div>
+            <div class="feedback-modal-body">
+                <p>Thank you for spending time on our website. Your feedback helps us improve!</p>
+                <form id="feedbackForm">
+                    <textarea 
+                        id="feedbackText" 
+                        placeholder="Please share your thoughts, suggestions, or any issues you encountered..."
+                        rows="6"
+                        required
+                    ></textarea>
+                    <div class="feedback-modal-actions">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-secondary" id="feedbackCloseBtn">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

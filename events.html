@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Coding Club Chandigarh University</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <img src="assets/images/logos/culogo.png" alt="College Logo" class="navbar-logo">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html" class="active">Events</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Notice Bar -->
+    <div class="notice-bar" id="noticeBar">
+        <div class="notice-content">
+            <span class="notice-text" id="noticeText">📢 Important: Updates for upcoming events will be comming soon!</span>
+            <button class="notice-close" id="noticeClose">&times;</button>
+        </div>
+    </div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <h1>Upcoming Events</h1>
+        <p>Join us for workshops, competitions, and hackathons</p>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events-section">
+        <div class="container">
+            <div class="events-grid">
+                <!-- Event Card 1 -->
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">DEC</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Python Workshop: Advanced Concepts</h3>
+                        <p class="event-type">Workshop</p>
+                        <p>Deep dive into advanced Python concepts including decorators, generators, and context managers.</p>
+                        <div class="event-meta">
+                            <span>📍 Lab A-201</span>
+                            <span>🕐 3:00 PM - 5:00 PM</span>
+                        </div>
+                        <button class="btn btn-secondary">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Event Card 2 -->
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">20</span>
+                        <span class="month">DEC</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Web Development Bootcamp</h3>
+                        <p class="event-type">Workshop</p>
+                        <p>Learn HTML, CSS, and JavaScript fundamentals for building responsive web applications.</p>
+                        <div class="event-meta">
+                            <span>📍 Computer Lab 2</span>
+                            <span>🕐 2:00 PM - 5:00 PM</span>
+                        </div>
+                        <button class="btn btn-secondary">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Event Card 3 -->
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">25</span>
+                        <span class="month">DEC</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Coding Competition 2025</h3>
+                        <p class="event-type">Competition</p>
+                        <p>Compete with peers in a 2-hour coding challenge. Multiple difficulty levels available.</p>
+                        <div class="event-meta">
+                            <span>📍 Main Auditorium</span>
+                            <span>🕐 4:00 PM - 6:00 PM</span>
+                        </div>
+                        <button class="btn btn-secondary">Register Now</button>
+                    </div>
+                </div>
+
+                <!-- Event Card 4 -->
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">02</span>
+                        <span class="month">JAN</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>React.js Workshop</h3>
+                        <p class="event-type">Workshop</p>
+                        <p>Introduction to React and building interactive user interfaces with modern JavaScript.</p>
+                        <div class="event-meta">
+                            <span>📍 Lab A-105</span>
+                            <span>🕐 3:00 PM - 5:00 PM</span>
+                        </div>
+                        <button class="btn btn-secondary">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Event Card 5 -->
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">10</span>
+                        <span class="month">JAN</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Industry Expert Talk</h3>
+                        <p class="event-type">Talk</p>
+                        <p>Learn about career paths in software development from experienced industry professionals.</p>
+                        <div class="event-meta">
+                            <span>📍 Main Hall</span>
+                            <span>🕐 2:00 PM - 4:00 PM</span>
+                        </div>
+                        <button class="btn btn-secondary">Register</button>
+                    </div>
+                </div>
+
+                <!-- Event Card 6 -->
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">JAN</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Hackathon 2025</h3>
+                        <p class="event-type">Hackathon</p>
+                        <p>24-hour coding marathon. Team up and build innovative solutions. Prizes and recognition included.</p>
+                        <div class="event-meta">
+                            <span>📍 Computer Center</span>
+                            <span>🕐 9:00 AM (24 hours)</span>
+                        </div>
+                        <button class="btn btn-secondary">Register Team</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Coding Club CU</h4>
+                    <p>Building a community of developers at Chandigarh University</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: codingclub123@culkomail.in</p>
+                    <p>Campus: Chandigarh University</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Coding Club CU. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Feedback Modal -->
+    <div id="feedbackModal" class="feedback-modal">
+        <div class="feedback-modal-content">
+            <div class="feedback-modal-header">
+                <h3>We'd Love Your Feedback!</h3>
+                <button class="feedback-close" id="feedbackClose" aria-label="Close feedback modal">&times;</button>
+            </div>
+            <div class="feedback-modal-body">
+                <p>Thank you for spending time on our website. Your feedback helps us improve!</p>
+                <form id="feedbackForm">
+                    <textarea 
+                        id="feedbackText" 
+                        placeholder="Please share your thoughts, suggestions, or any issues you encountered..."
+                        rows="6"
+                        required
+                    ></textarea>
+                    <div class="feedback-modal-actions">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-secondary" id="feedbackCloseBtn">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        /* ===================================
+           NOTICE BAR FUNCTIONALITY
+           =================================== */
+
+        const noticeBar = document.getElementById('noticeBar');
+        const noticeClose = document.getElementById('noticeClose');
+        const noticeText = document.getElementById('noticeText');
+
+        /**
+         * Close notice bar when X button is clicked
+         */
+        if (noticeClose) {
+            noticeClose.addEventListener('click', () => {
+                noticeBar.classList.add('hidden');
+            });
+        }
+
+        /**
+         * Show notice bar by default on page load
+         */
+        function initNoticeBar() {
+            noticeBar.classList.remove('hidden');
+        }
+
+        // Initialize notice bar when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initNoticeBar);
+        } else {
+            initNoticeBar();
+        }
+
+        /**
+         * Function to update notice text manually (for admin use)
+         * Usage: updateNoticeText('Your new notification message')
+         */
+        function updateNoticeText(newText) {
+            noticeText.textContent = newText;
+            noticeBar.classList.remove('hidden');
+        }
+
+        console.log('Notice bar initialized. Use updateNoticeText("Your message") to change it.');
+    </script>
+</body>
+</html>
