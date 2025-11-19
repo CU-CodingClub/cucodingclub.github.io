@@ -41,15 +41,6 @@ This website showcases the Coding Club's mission, events, projects, and team. It
    - Member roles and contact information
    - "Join Us" call-to-action
 
-## 🎨 Design System
-
-### Colors
-- **Primary Blue**: #0A4D9C - Main branding color
-- **Secondary Blue**: #0066CC - Hover states and accents
-- **White**: #FFFFFF - Clean backgrounds
-- **Light Gray**: #F5F7FA - Subtle backgrounds for cards
-- **Dark**: #333333 - Text color
-- **Text Light**: #666666 - Secondary text
 
 ### Typography
 - **Font Family**: Poppins (from Google Fonts)
