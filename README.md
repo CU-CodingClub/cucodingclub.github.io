@@ -146,7 +146,7 @@ department of computer science and engineering ( Chandigarh University Lucknow ,
 
 
 ## website link🔗🔗
-Visit now : https://cu-codingclub.github.io/cucodingclub.github.io/
+Visit now : https://cu-codingclub.github.io/SoCE/
 
 ## thank you 
 
